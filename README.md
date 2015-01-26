@@ -1,9 +1,11 @@
 # GitTipsAndTricks
 
 ###The progression of Source Control systems
-1. Local SC
-2. Centralized SC (TFS)
-3. Distributed SC (GIT)
+1. Local SC (RCS) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/local.png)
+
+2. Centralized SC (TFS) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/centralized.png)
+
+3. Distributed SC (GIT) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png)
 
 ###GIT History
 GIT grew out of the community involved with Linux Kernel Development.  Prior to GIT, the community had been using a commercial product, Bitkeeper, for its Source Control solution.  In 2005 the relationship with the company that owned Bitkeeper soured, and GIT was written as its replacement.
