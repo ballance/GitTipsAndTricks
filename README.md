@@ -2,10 +2,13 @@
 
 ###The progression of Source Control systems
 1. Local SC (RCS) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/local.png)
+Slightly better than just dropping files in a folder and timestamping them.
 
 2. Centralized SC (TFS) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/centralized.png)
+Single point of integration, single point of failure
 
 3. Distributed SC (GIT) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png)
+Fully fault tolerent, everyone has everything.
 
 [image source] (http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
