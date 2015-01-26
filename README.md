@@ -7,6 +7,8 @@
 
 3. Distributed SC (GIT) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png)
 
+[source] (http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
 ###GIT History
 GIT grew out of the community involved with Linux Kernel Development.  Prior to GIT, the community had been using a commercial product, Bitkeeper, for its Source Control solution.  In 2005 the relationship with the company that owned Bitkeeper soured, and GIT was written as its replacement.
 
