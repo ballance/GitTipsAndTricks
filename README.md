@@ -27,20 +27,26 @@ source: http://git-scm.com/book/en/v2 , pg 31.
 Lorem Ipsum sit dolor amet avec qua.
 
 ####GIT CLONE
-Lorem Ipsum sit dolor amet avec qua.
+Starting from scratch with an established remote repository?  GIT CLONE is your friend.
+
+Get the url for the remote repo you would like to have locally and run `GIT CLONE <remote repo uri`
 
 ####GIT BRANCH
 Lorem Ipsum sit dolor amet avec qua.
 
+### GIT - Working with remotes
+####GIT FETCH
+Retrieve changes made to remote but do not merge.
+
 ####GIT PUSH
-Lorem Ipsum sit dolor amet avec qua.
+Commit to remote
 
 ####GIT PULL
-Lorem Ipsum sit dolor amet avec qua.
+GIT FETCH
+GIT MERGE
+   All rolled into a single step.
 
-####GIT FETCH
-Lorem Ipsum sit dolor amet avec qua.
-
+### GIT - History
 ####GIT LOG
 git log --graph --pretty=oneline
 
