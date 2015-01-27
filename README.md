@@ -26,20 +26,23 @@ GIT grew out of the community involved with Linux Kernel Development.  Prior to 
 source: http://git-scm.com/book/en/v2 , pg 31.
 
 ###GIT internals
+TBD
 
 ###Commands
 
-
 ####`GIT INIT`
-Lorem Ipsum sit dolor amet avec qua.
+Initializes a local folder to be a GIT working folder.  Can be connected to a remote or kept just as a local code repo.
 
 ####`GIT CLONE`
 Starting from scratch with an established remote repository?  GIT CLONE is your friend.
 
-Get the url for the remote repo you would like to have locally and run `GIT CLONE <remote repo uri`
+Get the url for the remote repo you would like to have locally and run `GIT CLONE <remote repo uri>`
 
 ####`GIT BRANCH`
 Lorem Ipsum sit dolor amet avec qua.
+
+####`GIT CHECKOUT`
+Works for branches, individual files, commits, Pull Requests.
 
 ### GIT - Working with remotes
 ####`GIT FETCH`
