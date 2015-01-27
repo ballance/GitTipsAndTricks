@@ -75,14 +75,20 @@ Change which commit HEAD points to.  Updates references in your working director
 ####"sync"
 GIT doesn't have the concept of "sync" natively, per-se.  It separates sync into `PULL` `PUSH` and alternatively `PULL` into the two part process `GIT FETCH` then `GIT MERGE`
 
+Visual Studio's GIT plug-in uses the concept of 'sync' to do `PULL` or a `PUSH` behind the scenes
+
 ##Pull Requests
+Pull Requests seem to work best for requesting a merge between two branches (can be across forks) on GitHub.
+
+Pull requests roll up all the commits between two lines of work and roll them together with the base (destination) of the merge in a single merge step.
 
 ##Editing & Merging
 
 ####`GIT DIFF`
+Shows differences on the command line.  Okay with single files with few changes, but becomes unmanageable quickly with lots of changes
 
 ####`GIT DIFFTOOL`
-
+Invoke your favorite diff tool to do the same thing as `GIT DIFF` but with a rich UX experience of your choice.  I use *DiffMerge* or *Beyond Compare 3*
 
 ##Visual Tools
 
