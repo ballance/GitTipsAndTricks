@@ -90,6 +90,19 @@ Shows differences on the command line.  Okay with single files with few changes,
 ####`GIT DIFFTOOL`
 Invoke your favorite diff tool to do the same thing as `GIT DIFF` but with a rich UX experience of your choice.  I use *DiffMerge* or *Beyond Compare 3*
 
+###Extras
+
+####Squishing
+**Careful** squishing (rebasing) rewrite commit history)
+`GIT REBASE 241D2E9 -i`
+
+`pick dd5ccee Update README.md`
+`pick 769077e Update README.md`
+`pick fd1e701 Update README.md`
+`pick 750648c Updated header to add spaces`
+`pick ab69170 Update README.md`
+
+
 ##Visual Tools
 
 ####Visual Studio
