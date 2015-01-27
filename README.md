@@ -26,7 +26,7 @@ GIT grew out of the community involved with Linux Kernel Development.  Prior to 
 source: http://git-scm.com/book/en/v2 , pg 31.
 
 ###GIT internals
-TBD
+TBD...
 
 ###Commands
 
