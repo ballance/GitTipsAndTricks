@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGit", "HelloGit.csproj", "{589CBF55-24E4-43C7-9F2E-C30B1A383A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{589CBF55-24E4-43C7-9F2E-C30B1A383A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589CBF55-24E4-43C7-9F2E-C30B1A383A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589CBF55-24E4-43C7-9F2E-C30B1A383A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589CBF55-24E4-43C7-9F2E-C30B1A383A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
