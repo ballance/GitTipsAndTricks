@@ -1,4 +1,4 @@
-# GitTipsAndTricks
+# GIT Tips And Tricks
 
 ###The progression of Source Control systems
 1. Local SC (RCS) [image] (http://git-scm.com/book/en/v2/book/01-introduction/images/local.png)
