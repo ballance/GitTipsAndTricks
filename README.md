@@ -30,25 +30,25 @@ source: http://git-scm.com/book/en/v2 , pg 31.
 ###Commands
 
 
-####GIT INIT
+####`GIT INIT`
 Lorem Ipsum sit dolor amet avec qua.
 
-####GIT CLONE
+####`GIT CLONE`
 Starting from scratch with an established remote repository?  GIT CLONE is your friend.
 
 Get the url for the remote repo you would like to have locally and run `GIT CLONE <remote repo uri`
 
-####GIT BRANCH
+####`GIT BRANCH`
 Lorem Ipsum sit dolor amet avec qua.
 
 ### GIT - Working with remotes
-####GIT FETCH
+####`GIT FETCH`
 Retrieve changes made to remote but do not merge.
 
-####GIT PUSH
+####`GIT PUSH`
 Commit to remote
 
-####GIT PULL
+####`GIT PULL`
 GIT FETCH
 GIT MERGE
    All rolled into a single step.
@@ -57,30 +57,38 @@ GIT MERGE
 ####GIT LOG
 git log --graph --pretty=oneline
 
-####GIT COMMIT
-Lorem Ipsum sit dolor amet avec qua.
+####`GIT ADD`
+Stages files to be committed
 
-####GIT ADD
-Lorem Ipsum sit dolor amet avec qua.
+####`GIT COMMIT`
+Commits files you have staged with `GIT ADD`
 
-####GIT REBASE
-Lorem Ipsum sit dolor amet avec qua.
+####`GIT RESET`
+Change which commit HEAD points to.  Updates references in your working directory.  Does not change commits, does not rewrite history
 
-####GIT RESET
-Lorem Ipsum sit dolor amet avec qua.
+####`GIT REBASE`
+**Careful**, this rewrites history.  This is a very bad idea for any changesets that have been pushed to a shared remote repo
 
 ####"sync"
-Lorem Ipsum sit dolor amet avec qua.
+GIT doesn't have the concept of "sync" natively, per-se.  It separates sync into `PULL` `PUSH` and alternatively `PULL` into the two part process `GIT FETCH` then `GIT MERGE`
 
 ##Pull Requests
+
+##Editing & Merging
+
+####`GIT DIFF`
+
+####`GIT DIFFTOOL`
+
 
 ##Visual Tools
 
 ####Visual Studio
-Lorem Ipsum sit dolor amet avec qua.
+What is actually going on behind the scenes?  Good way to compare files changed locally to the previous commit.
 
 ####SourceTree (Atlassian)
-Lorem Ipsum sit dolor amet avec qua.
+Crashes a lot for me.  Nice visuals when it works.
 
 ####Git for Windows
-Lorem Ipsum sit dolor amet avec qua.
+Official tool provided by the folks at GitHub.  [Read more about it from Phil Haack](http://haacked.com/archive/2012/05/21/introducing-github-for-windows.aspx/)
+
